@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import section1img from './images/section1img.png';
 
@@ -9,18 +9,19 @@ function App() {
     <div className="App">
       <header className="App-header">
           <div className="download">
+              // eslint-disable-next-line
               <img className='bgimage' src={section1img}/>
               <div className="btn-grp">
-                <a href="http://tiantianzhongappxiazai.com/ttzcpys.apk" target="_blank" className="btn-down-android">
+                  // eslint-disable-next-line
+                <a href="http://tiantianzhongappxiazai.com/ttzcpys.apk"  className="btn-down-android">
                       <i className="icon i-android"></i>
                       <text className="a-txt i-act">Android版下载</text>
                   </a>
-                  <a href="https://itunes.apple.com/cn/app/id1439440743?mt=8" target="_blank"
-                     className="btn-down-iphone mt20">
+                  <a href="https://itunes.apple.com/cn/app/id1439440743?mt=8" className="btn-down-iphone mt20">
                       <i className="icon i-iphone"></i>
                       <text className="a-txt">iPhone版下载</text>
                   </a>
-                  <a href="https://vnsr1007.com" target="_blank" className="pc">
+                  <a href="https://vnsr1007.com"  className="pc">
                       <text>点击进入官方网站</text>
                   </a>
               </div>
